@@ -1,7 +1,7 @@
 module Main (main) where
 
-import Lib
 import Shape
+import SimpleGraphics
 
 main :: IO ()
-main = putStr "Hello"
+main = main3
