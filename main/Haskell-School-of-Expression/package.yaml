@@ -1,10 +1,10 @@
 name:                Haskell-School-of-Expression
 version:             0.1.0.0
-github:              "Github username here/Haskell-School-of-Expression"
+github:              "Github username vezril/Haskell-School-of-Expression"
 license:             BSD3
-author:              "Author name here"
+author:              "Calvin Ference"
 maintainer:          "Author email here"
-copyright:           "2019 Author name here"
+copyright:           "2023 Calvin Ference"
 
 extra-source-files:
 - README.md
@@ -21,6 +21,8 @@ description:         Please see the README on GitHub at <https://github.com/Gith
 
 dependencies:
 - base >= 4.7 && < 5
+- text
+- HGL
 
 ghc-options:
 - -Wall
