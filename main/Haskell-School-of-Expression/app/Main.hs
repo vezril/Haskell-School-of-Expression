@@ -1,7 +1,6 @@
 module Main (main) where
 
-import Shape
-import SimpleGraphics
+import Draw
 
 main :: IO ()
-main = main3
+main = main1

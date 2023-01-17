@@ -34,12 +34,12 @@ fillTri :: Window -> Int -> Int -> Int -> IO ()
 fillTri w x y size = drawInWindow w (withColor Blue (polygon [(x,y), (x + size, y), (x,y - size)]))
 
 minSize :: Int
-minSize = 8
+minSize = 2
   
 sierpinkskiTri :: Window -> Int -> Int -> Int -> IO ()
 sierpinkskiTri w x y size
                 = if size <= minSize
-                  then fillTri w x y size
+                 then fillTri w x y size
                   else let size2 = size `div` 2
                     in do sierpinkskiTri w x y size2
                           sierpinkskiTri w x (y - size2) size2
